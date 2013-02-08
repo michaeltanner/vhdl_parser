@@ -3,10 +3,10 @@ $:.unshift lib unless $:.include?(lib)
 
 Gem::Specification.new do |s|
   s.name = "vhdl_parser"
-  s.version = 0.2
+  s.version = 0.3
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Christoph Koehler"]
+  s.authors = ["Christoph Koehler", "Michael Tanner"]
   s.date = "#{Time.now.strftime("%Y-%m-%d")}"
   s.summary = %q{VHDL Entity Parser}
   s.description = %q{VHDL Parser parses an VHDL entity and provides a Ruby
